@@ -1,0 +1,56 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+button {
+    margin: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#slotButton {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+
+#slotMachine {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.slot {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.reel {
+    width: 50px;
+    height: 50px;
+    border: 2px solid #333;
+    margin: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    background-color: white;
+}
+
+.hidden {
+    display: none;
+}
+
+#funFact {
+    margin-top: 20px;
+    font-style: italic;
+}
