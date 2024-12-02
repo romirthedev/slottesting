@@ -14,7 +14,7 @@ document.getElementById('lever').addEventListener('click', () => {
     reels.forEach(reel => {
         reel.style.transform = `rotateX(${Math.random() * 3600}deg)`;
     });
-
+ 
     setTimeout(() => {
         reels.forEach(reel => {
             reel.textContent = icons[Math.floor(Math.random() * icons.length)];
